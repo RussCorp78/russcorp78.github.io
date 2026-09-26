@@ -37,6 +37,7 @@ CURVED BORDER
     content: "";
     position: absolute;
     inset: 0;
+    margin: 20px;
     border: 12px solid black;
     border-radius: 150px 0 0 0;
     pointer-events: none;
