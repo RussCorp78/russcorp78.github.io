@@ -8,38 +8,48 @@ box-sizing: border-box;
 
 html,
 body {
+    margin: 0;
+    padding: 0;
 
-margin: 0;
-padding: 0;
+    width: 100%;
+    height: 100%;
 
-width: 100%;
-height: 100%;
+    overflow: hidden;
 
-overflow: hidden;
+    font-family: Arial, sans-serif;
 
-font-family: Arial, sans-serif;
-
-background: #000000;
+    background: #000000;
 }
 
 /* ---------------------------
-SCREEN OUTLINE
+APP FRAME
 --------------------------- */
 
 .app-frame {
     position: fixed;
     inset: 5px 20px 20px 5px;
     margin: 20px;
-    background: transparent;
-    /* Large curves in opposite corners */
+    background: #ffffff;
     border-radius: 150px 0 0 0;
     overflow: hidden;
   }
 
 /* ---------------------------
+CURVED BORDER
+--------------------------- */
+.app-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 12px solid black;
+    border-radius: 150px 0 0 0;
+    pointer-events: none;
+    z-index: 999;
+}
+
+/* ---------------------------
 LOGO
 --------------------------- */
- 
 .logo-top-left {
     position: fixed;
     top: 10px;
@@ -52,20 +62,14 @@ LOGO
     height: auto;
   }
 
+/* ---------------------------
+CONTENT
+--------------------------- */
 .app-content {
     width: 100%;
     height: 100%;
   }
 
-.app-frame::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border: 12px solid black;
-    border-radius: 150px 0 0 0;
-    pointer-events: none;
-    z-index: 999;
-}
 /* ---------------------------
 TITLE
 --------------------------- */
