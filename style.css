@@ -1,0 +1,70 @@
+/* ---------------------------
+BASIC PAGE
+--------------------------- */
+
+* {
+box-sizing: border-box;
+}
+
+html,
+body {
+
+margin: 0;
+padding: 0;
+
+width: 100%;
+height: 100%;
+
+overflow: hidden;
+
+font-family: Arial, sans-serif;
+
+background: #000000;
+}
+
+/* ---------------------------
+SCREEN OUTLINE
+--------------------------- */
+
+.app-frame {
+    position: fixed;
+    inset: 5px 20px 20px 5px;
+    margin: 20px;
+    background: transparent;
+    /* Large curves in opposite corners */
+    border-radius: 150px 0 0 0;
+    overflow: hidden;
+  }
+
+/* ---------------------------
+LOGO
+--------------------------- */
+ 
+.logo-top-left {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2000;
+  }
+
+.logo-top-left img {
+    width: 70px;
+    height: auto;
+  }
+  
+/* ---------------------------
+TITLE
+--------------------------- */
+
+#title {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  left: 40px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 2px 5px #000;
+  z-index: 10;
+}
