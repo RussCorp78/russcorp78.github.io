@@ -51,6 +51,11 @@ LOGO
     width: 70px;
     height: auto;
   }
+
+.app-content {
+    width: 100%;
+    height: 100%;
+  }
   
 /* ---------------------------
 TITLE
