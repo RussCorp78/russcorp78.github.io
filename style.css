@@ -48,8 +48,8 @@ LOGO
 --------------------------- */
 .logo-top-left {
     position: fixed;
-    top: 7px;
-    left: 7px;
+    top: 2px;
+    left: 2px;
     z-index: 2000;
   }
 
