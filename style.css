@@ -18,6 +18,13 @@ body {
     background: #000000;
 }
 
+.home-content {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: max(40px, 12vw);
+}
+
 /* ---------------------------
 APP FRAME
 --------------------------- */
