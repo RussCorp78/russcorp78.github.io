@@ -24,7 +24,7 @@ APP FRAME
 
 .app-frame {
     position: fixed;
-    inset: 5px 20px 20px 30px;
+    inset: 5px 5px 5px 5px;
     background: #ffffff;
     border-radius: 150px 0 0 0;
     overflow: hidden;
@@ -39,7 +39,7 @@ CURVED BORDER
     position: absolute;
     inset: 0;
     border-radius: 150px 0 0 0;
-    box-shadow: inset 0 0 0 12px black;
+    box-shadow: inset 0 0 1px 1px #000000;
     pointer-events: none;
     z-index: 999;
 }
@@ -64,7 +64,7 @@ CONTENT
 --------------------------- */
 .app-content {
     position: absolute;
-    padding: 100px 40px 0px 120px;
+    padding: 100px 0px 0px 0px;
     width: 100%;
     height: 100%;
   }
