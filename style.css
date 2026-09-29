@@ -24,7 +24,7 @@ APP FRAME
 
 .app-frame {
     position: fixed;
-    inset: 5px 20px 20px 5px;
+    inset: 5px 20px 20px 40px;
     background: #ffffff;
     border-radius: 150px 0 0 0;
     overflow: hidden;
@@ -62,7 +62,7 @@ LOGO
 CONTENT
 --------------------------- */
 .app-content {
-    padding: 100px 40px 0px 0px;
+    padding: 100px 40px 0px 40px;
     width: 100%;
     height: 100%;
   }
