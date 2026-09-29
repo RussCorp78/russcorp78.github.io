@@ -25,7 +25,7 @@ APP FRAME
 .app-frame {
     position: fixed;
     inset: 5px 20px 20px 30px;
-    background: red;
+    background: #ffffff;
     border-radius: 150px 0 0 0;
     overflow: hidden;
     padding-left: 0;
@@ -104,4 +104,6 @@ to bottom,
 #9ca58d 65%,
 #59634e 100%
 );
+overflow: hidden;
+border-radius: 150px 0 0 0;
 }
