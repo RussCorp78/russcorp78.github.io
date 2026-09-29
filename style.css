@@ -45,22 +45,6 @@ CURVED BORDER
     z-index: 999;
 }
 
-.app-frame::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 150px;
-    height: 150px;
-
-    background: black;
-    border-bottom-right-radius: 150px;
-
-    z-index: 998;
-    pointer-events: none;
-}
-
 /* ---------------------------
 LOGO
 --------------------------- */
